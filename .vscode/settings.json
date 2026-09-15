@@ -1,0 +1,18 @@
+{
+  "idf.currentSetup": "/Users/ahmedsalah/.espressif/v6.0.1/esp-idf",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.customExtraVars": {
+    "ADF_PATH": "/Users/ahmedsalah/.espressif/tools/esp-adf",
+    "IDF_TARGET": "esp32s3"
+  },
+  "clangd.path": "/Users/ahmedsalah/.espressif/tools/esp-clang/esp-20.1.1_20250829/esp-clang/bin/clangd",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=/Users/ahmedsalah/Uni/Master/Munich/Study/Projects/esp32cam_telegram/build"
+  ],
+  "idf.port": "/dev/tty.usbmodem5B7A1178141",
+  "idf.flashType": "UART"
+}
