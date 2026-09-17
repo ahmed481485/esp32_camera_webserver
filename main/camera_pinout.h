@@ -1,3 +1,17 @@
+
+
+
+//specify the type of board you are using by uncommenting the corresponding line below
+
+// #define BOARD_WROVER_KIT
+// #define BOARD_ESP32CAM_AITHINKER
+#define BOARD_ESP32S3_WROOM
+// #define BOARD_ESP32S3_XIAO
+// #define BOARD_ESP32S3_GOOUUU
+// #define BOARD_ESP32S3_XIAO
+
+
+
 // WROVER-KIT PIN Map
 #ifdef BOARD_WROVER_KIT
 
