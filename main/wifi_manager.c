@@ -1,4 +1,7 @@
 
+#include "wifi_manager.h"
+#include "personal.h"
+
 #include <string.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
@@ -13,8 +16,6 @@
 #include "lwip/sys.h"
 
 
-#define WIFI_SSID "Xiaomi14"
-#define WIFI_PASS "wantsomeint"
 #define WIFI_CONNECTED_BIT BIT0
 #define WIFI_FAIL_BIT      BIT1
 #define EXAMPLE_ESP_MAXIMUM_RETRY  3
